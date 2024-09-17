@@ -2,7 +2,7 @@
 
 ## Este projeto foi feito um Token ERC-20 utilizando as ferramentas:
 - Linguagem Solidity;
-- Ganache <https://archive.trufflesuite.com/ganache/>;
+- Etherscan <https://sepolia.etherscan.io/>;
 - Remix IDE <https://remix.ethereum.org/>;
 - Metamask (estenção para instalar no navegador);
 
@@ -13,8 +13,9 @@
 
 ## Passos:
 1. Instalar a estenção Metamesk;
-2. Abrir o Ganache e abrir uma nova rede "Project-DIO";
-3. Criar uma nova rede no Metamesk "DIONet";
-4. Conectar uma carteira no ambiente do Ganache para o Metamask importanto uma carteira pela chave privada;
-5. No remix criar o arquivo "DIOCoin.sol"
-6. Compilar, realizar o deploy e realizar os testes com a rede simulanda no "Ganache" conectada coma o gerenciador de carteira "Metamesk" 
+2. Configurar a rede tesnet "Sepolia" no Metamesk;
+3. Criar uma nova carteria para o projeto Token. Endereço que foi criado para carteira "0x1c75030cd043ED43308e26Ac68865a31210dbF66";
+4. Conectar a carteira criada no Metamesk;
+5. No remix criar o arquivo "Token.sol"
+6. Compilar, realizar o deploy e realizar os testes com a rede "Testnet" Sepolia conectada coma o gerenciador de carteira "Metamesk"
+7. A criação do contrato (token) peder ser verificada pelo site "Etherscan" informado o endereço da carteira. 
